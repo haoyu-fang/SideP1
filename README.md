@@ -12,30 +12,7 @@
 ---
 
 ## 🏗 系統架構設計
-
-Order
-├── orderId // 訂單編號
-├── price // 價格
-├── quantity // 數量
-├── side // BUY / SELL
-└── timestamp // 下單時間
-
-OrderBook
-├── bidBook // 買單簿（價格由高到低）
-└── askBook // 賣單簿（價格由低到高）
-
-MatchingEngine
-├── addOrder()
-├── match()
-└── generateTrade()
-
-Trade
-├── buyOrderId
-├── sellOrderId
-├── price
-└── quantity
-
-
+![alt text](image.png)
 ---
 
 ## ⚙ 核心功能
